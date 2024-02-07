@@ -17,7 +17,7 @@ try {
 
     // Connection successful
     $response['success'] = true;
-    // $response['message'] = 'Database connection successful';
+    $response['message'] = 'Database connection successful';
     $response['pdo'] = $pdo;
 } catch (PDOException $e) {
     // Connection failed
